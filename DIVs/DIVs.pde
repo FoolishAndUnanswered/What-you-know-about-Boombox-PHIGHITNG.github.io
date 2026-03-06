@@ -94,6 +94,16 @@ float lyricsboxDivY = displayHeight * 0 / paperHeight;
 float lyricsboxDivWidth = displayWidth * 89 / paperWidth;
 float lyricsboxDivHeight = displayHeight * 30 / paperHeight;
 
+float displayimageDivX = displayWidth * 187 / paperWidth;
+float displayimageDivY = displayHeight * 97 / paperHeight; 
+float displayimageDivWidth = displayWidth * 8.9 / paperWidth;
+float displayimageDivHeight = displayHeight * 9.7 / paperHeight;
+
+float songtitleDivX = displayWidth *  / paperWidth;
+float songtitleDivY = displayHeight *  / paperHeight; 
+float songtitleDivWidth = displayWidth * 6 / paperWidth;
+float songtitleDivHeight = displayHeight * 0.7 / paperHeight;
+
 rect( bannerDivX, bannerDivY, bannerDivWidth, bannerDivHeight );
 
 rect( rowyiDivX, rowyiDivY, rowyiDivWidth, rowyiDivHeight );
