@@ -104,6 +104,16 @@ float songtitleDivY = displayHeight *  / paperHeight;
 float songtitleDivWidth = displayWidth * 6 / paperWidth;
 float songtitleDivHeight = displayHeight * 0.7 / paperHeight;
 
+float pauseDivX = displayWidth * ??? / paperWidth;
+float pauseDivY = displayHeight * ??? / paperHeight; 
+float pauseDivWidth = displayWidth * ??? / paperWidth;
+float pauseDivHeight = displayHeight * ??? / paperHeight;
+
+float playDivX = displayWidth * ??? / paperWidth;
+float playDivY = displayHeight * ??? / paperHeight; 
+float playDivWidth = displayWidth * ??? / paperWidth;
+float playDivHeight = displayHeight * ??? / paperHeight;
+
 rect( bannerDivX, bannerDivY, bannerDivWidth, bannerDivHeight );
 
 rect( rowyiDivX, rowyiDivY, rowyiDivWidth, rowyiDivHeight );
@@ -139,6 +149,10 @@ rect( songtitleDivX, songtitleDivY, songtitleDivWidth, songtitleDivHeight );
 rect( pauseDivX, pauseDivY, pauseDivWidth, pauseDivHeight );
 rect( playDivX, playDivY, playDivWidth, playDivHeight );
 rect( skipDivX, skipDivY, skipDivWidth, skipDivHeight );
-rect( DivX, DivY, DivWidth, DivHeight );
-rect( DivX, DivY, DivWidth, DivHeight );
-rect( DivX, DivY, DivWidth, DivHeight );
+rect( ffDivX, ffDivY, ffDivWidth, ffDivHeight );
+rect( b1DivX, b1DivY, b1DivWidth, b1DivHeight );
+rect( b2DivX, b2DivY, b2DivWidth, b2DivHeight );
+rect( b3DivX, b3DivY, b3DivWidth, b3DivHeight );
+rect( b4DivX, b4DivY, b4DivWidth, b4DivHeight );
+rect( b5DivX, b5DivY, b5DivWidth, b5DivHeight );
+rect( b6DivX, b6DivY, b6DivWidth, b6DivHeight );
