@@ -13,37 +13,37 @@ int paperHeight = 180;
 
 float bannerDivX = displayWidth * 0 / paperWidth;
 float bannerDivY = displayHeight * 0 / paperHeight; 
-float bannerDivWidth = displayWidth * 145 / paperWidth;
-float bannerDivHeight = displayHeight * 30 / paperHeight;
+float bannerDivWidth = displayWidth * 180/ paperWidth;
+float bannerDivHeight = displayHeight * 31 / paperHeight;
 
 float rowIDivX = displayWidth * 0 / paperWidth;
-float rowIDivY = displayHeight * 30 / paperHeight; 
+float rowIDivY = displayHeight * 31 / paperHeight; 
 float rowIDivWidth = displayWidth * 25 / paperWidth;
 float rowIDivHeight = displayHeight * 25 / paperHeight;
 
 float longboxIDivX = displayWidth * 25 / paperWidth;
-float longboxIDivY = displayHeight * 30 / paperHeight; 
-float longboxIDivWidth = displayWidth * 187 / paperWidth;
+float longboxIDivY = displayHeight * 31 / paperHeight; 
+float longboxIDivWidth = displayWidth * 155 / paperWidth;
 float longboxIDivHeight = displayHeight * 25 / paperHeight;
 
 float rowIIDivX = displayWidth * 0 / paperWidth;
-float rowIIDivY = displayHeight * 55 / paperHeight; 
+float rowIIDivY = displayHeight * 56 / paperHeight; 
 float rowIIDivWidth = displayWidth * 25 / paperWidth;
 float rowIIDivHeight = displayHeight * 25 / paperHeight;
 
 float longboxIIDivX = displayWidth * 25 / paperWidth;
-float longboxIIDivY = displayHeight * 55 / paperHeight; 
-float longboxIIDivWidth = displayWidth * 187 / paperWidth;
+float longboxIIDivY = displayHeight * 56 / paperHeight; 
+float longboxIIDivWidth = displayWidth * 155 / paperWidth;
 float longboxIIDivHeight = displayHeight * 25 / paperHeight;
 
 float rowIIIDivX = displayWidth * 0 / paperWidth;
-float rowIIIDivY = displayHeight * 80 / paperHeight; 
+float rowIIIDivY = displayHeight * 81 / paperHeight; 
 float rowIIIDivWidth = displayWidth * 25 / paperWidth;
 float rowIIIDivHeight = displayHeight * 25 / paperHeight;
 
 float longboxIIIDivX = displayWidth * 25 / paperWidth;
-float longboxIIIDivY = displayHeight * 80 / paperHeight; 
-float longboxIIIDivWidth = displayWidth * 187 / paperWidth;
+float longboxIIIDivY = displayHeight * 81 / paperHeight; 
+float longboxIIIDivWidth = displayWidth * 155 / paperWidth;
 float longboxIIIDivHeight = displayHeight * 25 / paperHeight;
 
 float rowIVDivX = displayWidth * 0 / paperWidth;
@@ -53,17 +53,17 @@ float rowIVDivHeight = displayHeight * 25 / paperHeight;
 
 float longboxIVDivX = displayWidth * 25 / paperWidth;
 float longboxIVDivY = displayHeight * 106 / paperHeight; 
-float longboxIVDivWidth = displayWidth * 187 / paperWidth;
+float longboxIVDivWidth = displayWidth * 155 / paperWidth;
 float longboxIVDivHeight = displayHeight * 25 / paperHeight;
 
 float rowVDivX = displayWidth * 0 / paperWidth;
-float rowVDivY = displayHeight * 132 / paperHeight; 
+float rowVDivY = displayHeight * 131 / paperHeight; 
 float rowVDivWidth = displayWidth * 25 / paperWidth;
 float rowVDivHeight = displayHeight * 25 / paperHeight;
 
 float longboxVDivX = displayWidth * 25 / paperWidth;
-float longboxVDivY = displayHeight * 132 / paperHeight; 
-float longboxVDivWidth = displayWidth * 187 / paperWidth;
+float longboxVDivY = displayHeight * 131 / paperHeight; 
+float longboxVDivWidth = displayWidth * 155 / paperWidth;
 float longboxVDivHeight = displayHeight * 25 / paperHeight;
 
 float rowVIDivX = displayWidth * 0 / paperWidth;
@@ -71,9 +71,9 @@ float rowVIDivY = displayHeight * 156 / paperHeight;
 float rowVIDivWidth = displayWidth * 25 / paperWidth;
 float rowVIDivHeight = displayHeight * 25 / paperHeight;
 
-float longboxVIDivX = displayWidth * 30 / paperWidth;
+float longboxVIDivX = displayWidth * 25 / paperWidth;
 float longboxVIDivY = displayHeight * 156 / paperHeight; 
-float longboxVIDivWidth = displayWidth * 187 / paperWidth;
+float longboxVIDivWidth = displayWidth * 155 / paperWidth;
 float longboxVIDivHeight = displayHeight * 25 / paperHeight;
 
 float scrollboxDivX = displayWidth * 180 / paperWidth;
@@ -146,6 +146,11 @@ float b6DivY = displayHeight * 170 / paperHeight;
 float b6DivWidth = displayWidth * 8 / paperWidth;
 float b6DivHeight = displayHeight * 5 / paperHeight;
 
+float lineDivX = displayWidth * 200 / paperWidth;
+float lineDivY = displayHeight * 171 / paperHeight; 
+float lineDivWidth = displayWidth * 63 / paperWidth;
+float lineDivHeight = displayHeight * 3 / paperHeight;
+
 rect( bannerDivX, bannerDivY, bannerDivWidth, bannerDivHeight );
 
 rect( rowIDivX, rowIDivY, rowIDivWidth, rowIDivHeight );
@@ -179,3 +184,5 @@ rect( b3DivX, b3DivY, b3DivWidth, b3DivHeight );
 rect( b4DivX, b4DivY, b4DivWidth, b4DivHeight );
 rect( b5DivX, b5DivY, b5DivWidth, b5DivHeight );
 rect( b6DivX, b6DivY, b6DivWidth, b6DivHeight );
+
+rect( lineDivX, lineDivY, lineDivWidth, lineDivHeight );

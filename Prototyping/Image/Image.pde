@@ -18,7 +18,7 @@ String open = "/";
 //see C:\Users\j.hoang8\Documents\GitHub\What-you-know-about-Boombox-PHIGHITNG.github.io\Dependencies\Images
 //See Relative Pathway: Dependencies\Images
  */
-String imageDirectory = upArrow + upArrow + upArrow + upArrow + upArrow + upArrow + upArrow + open + dependanciesFolder + upArrow + upArrow + upArrow + open + imagesFolder + fileExtension;
+String imageDirectory = upArrow + upArrow + open + dependanciesFolder + upArrow + upArrow + upArrow + open + imagesFolder + fileExtension;
 String pathway1 = imageDirectory + imageName1 +fileExtension;
 String pathway2 = imageDirectory + imageName2 +fileExtension;
 String pathway3 = imageDirectory + imageName3 +fileExtension;
@@ -32,8 +32,13 @@ image2 = loadImage( pathway2 );
 image3 = loadImage( pathway3 );
 //
 //Population:DIVs
-int numberOfbuttons
+
 //Image: Aspect Raio Algorithm
+println( float( imageWidth1) / (float(imageHeight2);
+float image2AspectRation_Greatone = (imageWidth2 > imageHeight) ? float(imageWidth2) / float (imageHeight2) : float (imageHeight2) 
+println(image2AspectRation_GreatOne);
+float imageWidthAdjusted2 = imageDivX;
+
 //Ternary Operator for Aspect Ratio
 
 
