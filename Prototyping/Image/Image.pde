@@ -3,6 +3,8 @@
 //
 //Display
 fullScreen();
+int appWidth = displayWidth;
+int appHeight = displayHeight;
 //
 String upArrow = "..";
 String dependanciesFolder = "Dependencies";
@@ -32,6 +34,13 @@ image2 = loadImage( pathway2 );
 image3 = loadImage( pathway3 );
 //
 //Population:DIVs
+int numberOfButtons =  ;
+int widthOfButtons = appWidth/numberOfButtons;
+int beginningButtonSpace = widthOfButton;
+float imageDivX = beginingButtonSpace*;
+float imageDivY = appHeight* / ;
+float imageDivWidth = appWidth* / - beginningButtonSpace*;
+float imageDivHeight = appHeight* / ;
 
 //Image: Aspect Raio Algorithm
 println( float( imageWidth1) / (float(imageHeight2);
