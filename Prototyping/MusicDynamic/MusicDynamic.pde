@@ -23,45 +23,45 @@ void setup() {
   //
   
   
-  float songtitleDivX = displayWidth *;
-float songtitleDivY = displayHeight *; 
-float songtitleDivWidth = displayWidth *;
-float songtitleDivHeight = displayHeight *;
+   songtitleDivX = displayWidth *;
+ songtitleDivY = displayHeight *; 
+ songtitleDivWidth = displayWidth *;
+ songtitleDivHeight = displayHeight *;
 
-float lyricsboxDivX = displayWidth *;
-float lyricsboxDivY = displayHeight *; 
-float lyricsboxDivWidth = displayWidth *;
-float lyricsboxDivHeight = displayHeight * 30 / paperHeight;
+ lyricsboxDivX = displayWidth *;
+ lyricsboxDivY = displayHeight *; 
+ lyricsboxDivWidth = displayWidth *;
+ lyricsboxDivHeight = displayHeight *  / paperHeight;
 
-float longboxIDivX = displayWidth * 25 / paperWidth;
-float longboxIDivY = displayHeight * 31 / paperHeight; 
-float longboxIDivWidth = displayWidth * 155 / paperWidth;
-float longboxIDivHeight = displayHeight * 25 / paperHeight;
+ longboxIDivX = displayWidth *  / paperWidth;
+ longboxIDivY = displayHeight *  / paperHeight; 
+ longboxIDivWidth = displayWidth * 155 / paperWidth;
+ longboxIDivHeight = displayHeight * 25 / paperHeight;
 
-float longboxIIDivX = displayWidth * 25 / paperWidth;
-float longboxIIDivY = displayHeight * 56 / paperHeight; 
-float longboxIIDivWidth = displayWidth * 155 / paperWidth;
-float longboxIIDivHeight = displayHeight * 25 / paperHeight;
+ longboxIIDivX = displayWidth * 25 / paperWidth;
+ longboxIIDivY = displayHeight * 56 / paperHeight; 
+ longboxIIDivWidth = displayWidth * 155 / paperWidth;
+ longboxIIDivHeight = displayHeight * 25 / paperHeight;
 
-float longboxIIIDivX = displayWidth * 25 / paperWidth;
-float longboxIIIDivY = displayHeight * 81 / paperHeight; 
-float longboxIIIDivWidth = displayWidth * 155 / paperWidth;
-float longboxIIIDivHeight = displayHeight * 25 / paperHeight;
+ longboxIIIDivX = displayWidth * 25 / paperWidth;
+ longboxIIIDivY = displayHeight * 81 / paperHeight; 
+ longboxIIIDivWidth = displayWidth * 155 / paperWidth;
+ longboxIIIDivHeight = displayHeight * 25 / paperHeight;
 
-float longboxIVDivX = displayWidth * 25 / paperWidth;
-float longboxIVDivY = displayHeight * 106 / paperHeight; 
-float longboxIVDivWidth = displayWidth * 155 / paperWidth;
-float longboxIVDivHeight = displayHeight * 25 / paperHeight;
+ longboxIVDivX = displayWidth * 25 / paperWidth;
+ longboxIVDivY = displayHeight * 106 / paperHeight; 
+ longboxIVDivWidth = displayWidth * 155 / paperWidth;
+ longboxIVDivHeight = displayHeight * 25 / paperHeight;
 
-float longboxVDivX = displayWidth * 25 / paperWidth;
-float longboxVDivY = displayHeight * 131 / paperHeight; 
-float longboxVDivWidth = displayWidth * 155 / paperWidth;
-float longboxVDivHeight = displayHeight * 25 / paperHeight;
+ longboxVDivX = displayWidth * 25 / paperWidth;
+ longboxVDivY = displayHeight * 131 / paperHeight; 
+ longboxVDivWidth = displayWidth * 155 / paperWidth;
+ longboxVDivHeight = displayHeight * 25 / paperHeight;
 
-float longboxVIDivX = displayWidth * 25 / paperWidth;
-float longboxVIDivY = displayHeight * 156 / paperHeight; 
-float longboxVIDivWidth = displayWidth * 155 / paperWidth;
-float longboxVIDivHeight = displayHeight * 25 / paperHeight;
+ longboxVIDivX = displayWidth * 25 / paperWidth;
+ longboxVIDivY = displayHeight * 156 / paperHeight; 
+ longboxVIDivWidth = displayWidth * 155 / paperWidth;
+ longboxVIDivHeight = displayHeight * 25 / paperHeight;
 
 rect( longboxIDivX, longboxIDivY, longboxIDivWidth, longboxIDivHeight );
 rect( longboxIIDivX, longboxIIDivY, longboxIIDivWidth, longboxIIDivHeight );
@@ -107,7 +107,7 @@ for ( int 1=0; ; i++ ) {
   playList[ currentSong ] = minim.loadFile( pathway );
 }
 
-
+ 
  if ( playList[currentSong]==null || soundEffects[currentSong]==null ) { //ERROR, play list is NULL
     //See FILE or minim.loadFile
     println("The Play List or Sound Effects did not load properly");
