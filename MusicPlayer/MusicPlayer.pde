@@ -18,7 +18,8 @@ void draw() {}//End Draw
 void mousePressed() {}//End Mouse Pressed
 //
 void keyPressed() {}//End Key Pressed
-//z
+//
+//
 println(displayWidth, displayHeight);
 fullScreen();
 int appwidth = displayWidth;
@@ -442,14 +443,3 @@ for ( int 1=0; ; i++ ) {
  
 //fool add yo code here i know you missin smth get to work broo lock innnn idc if you dont want this class
 //bro youre literally soooo cooookeedddd do NOT let yo dad pick yo courses EVER again
-
-
-//
-void draw() {
-}
-//
-void mousePressed() {
-}
-//
-void keyPressed() {
-}
