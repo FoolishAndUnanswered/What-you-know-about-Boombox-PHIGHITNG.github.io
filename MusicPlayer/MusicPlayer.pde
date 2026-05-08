@@ -342,18 +342,18 @@ void setup() {
   int currentSong = numberOfSongs - numberOfSongs;
   //
   
-  songtitleDivX = displayWidth *;
-  songtitleDivY = displayHeight *;
-  songtitleDivWidth = displayWidth *;
-  songtitleDivHeight = displayHeight *;
+  songtitleDivX = displayWidth * 200/ paperWidth;
+  songtitleDivY = displayHeight * 127 / paperHeight; 
+  songtitleDivWidth = displayWidth * 65 / paperWidth;
+  songtitleDivHeight = displayHeight * 7 / paperHeight;
+ 
+  lyricsboxDivX = displayWidth * 187 / paperWidth;
+  lyricsboxDivY = displayHeight * 0 / paperHeight; 
+  lyricsboxDivWidth = displayWidth * 89 / paperWidth;
+  lyricsboxDivHeight = displayHeight * 30 / paperHeight;
 
-  lyricsboxDivX = displayWidth *;
-  lyricsboxDivY = displayHeight *;
-  lyricsboxDivWidth = displayWidth *;
-  lyricsboxDivHeight = displayHeight *  / paperHeight;
-
-  longboxIDivX = displayWidth *  / paperWidth;
-  longboxIDivY = displayHeight *  / paperHeight;
+  longboxIDivX = displayWidth * 25 / paperWidth;
+  longboxIDivY = displayHeight * 31 / paperHeight; 
   longboxIDivWidth = displayWidth * 155 / paperWidth;
   longboxIDivHeight = displayHeight * 25 / paperHeight;
 
