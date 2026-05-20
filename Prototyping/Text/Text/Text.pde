@@ -6,14 +6,14 @@ fullScreen();
 int appWidth = displayWidth;
 int appHeight = displayHeight;
 
-float songtitleDivX = displayWidth *;
-float songtitleDivY = displayHeight *; 
-float songtitleDivWidth = displayWidth *;
-float songtitleDivHeight = displayHeight *;
+float songtitleDivX = displayWidth * 200/ paperWidth;
+float songtitleDivY = displayHeight * 127 / paperHeight; 
+float songtitleDivWidth = displayWidth * 65 / paperWidth;
+float songtitleDivHeight = displayHeight * 7 / paperHeight;
 
-float lyricsboxDivX = displayWidth *;
-float lyricsboxDivY = displayHeight *; 
-float lyricsboxDivWidth = displayWidth *;
+float lyricsboxDivX = displayWidth * 187 / paperWidth;
+float lyricsboxDivY = displayHeight * 0 / paperHeight; 
+float lyricsboxDivWidth = displayWidth * 89 / paperWidth;
 float lyricsboxDivHeight = displayHeight * 30 / paperHeight;
 
 float longboxIDivX = displayWidth * 25 / paperWidth;

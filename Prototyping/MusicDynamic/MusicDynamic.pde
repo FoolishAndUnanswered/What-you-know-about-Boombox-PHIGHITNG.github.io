@@ -23,18 +23,18 @@ void setup() {
   //
   
   
-   songtitleDivX = displayWidth *;
- songtitleDivY = displayHeight *; 
- songtitleDivWidth = displayWidth *;
- songtitleDivHeight = displayHeight *;
-
- lyricsboxDivX = displayWidth *;
- lyricsboxDivY = displayHeight *; 
- lyricsboxDivWidth = displayWidth *;
- lyricsboxDivHeight = displayHeight *  / paperHeight;
-
- longboxIDivX = displayWidth *  / paperWidth;
- longboxIDivY = displayHeight *  / paperHeight; 
+ songtitleDivX = displayWidth * 200/ paperWidth;
+ songtitleDivY = displayHeight * 127 / paperHeight; 
+ songtitleDivWidth = displayWidth * 65 / paperWidth;
+ songtitleDivHeight = displayHeight * 7 / paperHeight;
+ 
+ lyricsboxDivX = displayWidth * 187 / paperWidth;
+ lyricsboxDivY = displayHeight * 0 / paperHeight; 
+ lyricsboxDivWidth = displayWidth * 89 / paperWidth;
+ lyricsboxDivHeight = displayHeight * 30 / paperHeight;
+  
+ longboxIDivX = displayWidth * 25 / paperWidth;
+ longboxIDivY = displayHeight * 31 / paperHeight; 
  longboxIDivWidth = displayWidth * 155 / paperWidth;
  longboxIDivHeight = displayHeight * 25 / paperHeight;
 
@@ -99,8 +99,8 @@ rect( lyricsboxDivX, lyricsboxDivY, lyricsboxDivWidth, lyricsboxDivHeight );
   String fileExtension_mp3 = ".mp3";
 
 
-String musicDIrectory = find out how to d0 th15;
-String soundEffectsDrectory = find out how to d0 th15;
+String musicDIrectory = upArrow + open + upArrow + open + ;
+String soundEffectsDrectory = upArrow + open + upArrow + open +;
 String file = musicDirectory + songName1 + fileExtension_mp3;
 for ( int 1=0; ; i++ ) {
   pathway = musicDirectory + songName[i] + fileExtension_mp3;

@@ -214,7 +214,7 @@ void setup() {
   /* see C:\Users\j.hoang8\Documents\GitHub\What-you-know-about-Boombox-PHIGHITNG.github.io\Dependencies\Images
    See Relative Pathway: Dependencies\Images
    */
-  String imageDirectory = upArrow + upArrow + open + dependanciesFolder + upArrow + upArrow + upArrow + open + imagesFolder + fileExtension;
+  String imageDirectory = upArrow + open + upArrow + open + DependanciesFolder + open + ImagesFolder + fileExtension;
   String pathway1 = imageDirectory + imageName1 +fileExtension;
   String pathway2 = imageDirectory + imageName2 +fileExtension;
   String pathway3 = imageDirectory + imageName3 +fileExtension;
@@ -250,9 +250,9 @@ void setup() {
   int widthOfButtons = appWidth/numberOfButtons;
   int beginningButtonSpace = widthOfButton;
   float imageDivX = beginingButtonSpace*;
-  float imageDivY = appHeight* / ;
-  float imageDivWidth = appWidth* / - beginningButtonSpace*;
-  float imageDivHeight = appHeight* / ;
+  float imageDivY = appHeight* number/number ;
+  float imageDivWidth = appWidth* number/number - beginningButtonSpace*;
+  float imageDivHeight = appHeight* number/number ;
 
   //Image: Aspect Raio Algorithm
   println( float( imageWidth1) / (float(imageHeight2);
@@ -421,8 +421,8 @@ void setup() {
   String fileExtension_mp3 = ".mp3";
 
 
-  String musicDIrectory = find out how to d0 th15;
-  String soundEffectsDrectory = find out how to d0 th15;
+  String musicDIrectory = upArrow + open + upArrow + open + DependanciesFolder + open + MusicFolder + open ;
+  String soundEffectsDrectory = upArrow + open + upArrow + open + DependanciesFolder + open + SoundEffectsFolder + open;
   String file = musicDirectory + songName1 + fileExtension_mp3;
   for ( int 1=0;; i++ ) {
     pathway = musicDirectory + songName[i] + fileExtension_mp3;
@@ -441,7 +441,26 @@ void setup() {
 
       //fool add yo code here i know you missin smth get to work broo lock innnn idc if you dont want this class
       //bro youre literally soooo cooookeedddd do NOT let yo dad pick yo courses EVER again PLEASE choose yo own classes gng
-  }
+  //float DivX
+  //float DivY
+  //float DivWidth
+  //float DivHeight
+  //
+  //2D Music Symbol Variables
+  //
+  //Directory or pathway to images
+  //String-Vars of Folders and File Names
+  //Concatenation of pathways
+  //PImage Vars + Dimentions (width & height)
+  //
+  //DIVs
+  //rect
+  //rect
+  //
+  //2D music Symbol Shapes, 2D shapes needed to draw
+  //
+  //Images & Aspect Ratio Algorithim 
+  //
 }//End Setup
 //
 void draw() {
