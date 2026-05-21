@@ -25,6 +25,39 @@ void setup() {
   int paperWidth = 275;
   int paperHeight = 180;
   //
+  //float DivX
+  //float DivY
+  //float DivWidth
+  //float DivHeight
+  //
+  //Text Setup, includes text & font variables
+  //
+  //Literal Text ... String Variables
+  //
+  //Font Size Variables, corrleates with DIV-Height Variables
+  //
+  //2D Music Symbol Variables
+  //
+  //Directory or pathway to images
+  //String-Vars of Folders and File Names
+  //Concatenation of pathways
+  //PImage Vars + Dimentions (width & height)
+  //
+  //DIVs
+  //rect
+  //rect
+  //
+  //2D music Symbol Shapes, 2D shapes needed to draw
+  //
+  //Drawing Text - Formatting Text Funtions & ink variables
+  //
+  //Drawing Text - Font Size Adjustment (WHILE Loop)
+  //
+  //Draw Text with Adjusted DIV Variables
+  //
+  //Images & Aspect Ratio Algorithim, including WHILE Loop
+  //image();
+  //
   float bannerDivX = displayWidth * 0 / paperWidth;
   float bannerDivY = displayHeight * 0 / paperHeight;
   float bannerDivWidth = displayWidth * 180/ paperWidth;
@@ -441,26 +474,7 @@ void setup() {
 
       //fool add yo code here i know you missin smth get to work broo lock innnn idc if you dont want this class
       //bro youre literally soooo cooookeedddd do NOT let yo dad pick yo courses EVER again PLEASE choose yo own classes gng
-  //float DivX
-  //float DivY
-  //float DivWidth
-  //float DivHeight
-  //
-  //2D Music Symbol Variables
-  //
-  //Directory or pathway to images
-  //String-Vars of Folders and File Names
-  //Concatenation of pathways
-  //PImage Vars + Dimentions (width & height)
-  //
-  //DIVs
-  //rect
-  //rect
-  //
-  //2D music Symbol Shapes, 2D shapes needed to draw
-  //
-  //Images & Aspect Ratio Algorithim 
-  //
+
 }//End Setup
 //
 void draw() {
